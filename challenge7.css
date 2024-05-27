@@ -1,0 +1,58 @@
+body {
+    background-color: #F5F5F5
+    ;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+.mainbox {
+    height: 700px;
+    width: 400px;
+    border: 5px white solid;
+    margin: 50px 30px;
+    position: relative;
+
+}
+
+.mainbox-top, .mainbox-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainbox-top>:first-child{
+    background-color: tomato;
+}
+
+.mainbox-top>div:nth-child(2) {
+    background-color: teal;
+}
+
+.mainbox-bottom>:first-child {
+    background-color: burlywood;
+}
+
+.mainbox-bottom>:nth-child(2) {
+    background-color: thistle;
+}
+
+
+.box-content {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 50px;
+}
+
+.box-content>div {
+    margin-top: 30px;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.box-content>div:nth-child(2) {
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 800;
+}
